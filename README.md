@@ -19,6 +19,8 @@ I know  I wasnt supposed to spend more time on i t but I fixed the printing and 
 so now you can run the detector by running this line from the cmd (while in the directory that holds it): 
 >> python ObjectDetector.py run
 
+(the binary.dat file needs to be in the folder as well)
+
 
 I also changed it to print one image and not all of them, though still the loop happens to get the number of mistakes.
 
