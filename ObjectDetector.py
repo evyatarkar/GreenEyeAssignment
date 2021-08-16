@@ -23,7 +23,7 @@ def drawRectangles(ax_, circles, triangles, ground):
 
 
 def get_difference(ground_, predict_):
-    li_dif = [i for i in ground_ + predict_ if i not in predict_ or i]
+    li_dif = [i for i in ground_ if i not in predict_]
     return len(li_dif)
 
 
